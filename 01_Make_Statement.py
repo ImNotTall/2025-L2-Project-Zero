@@ -6,4 +6,4 @@ def make_statement(statement, decoration):
 
 
 # Main routine goes here
-make_statement("Instructions", "🔎")
+make_statement("Programming is fun!", "🐫")
