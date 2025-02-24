@@ -8,7 +8,7 @@ def string_check(question, valid_ans_list=('yes', 'no'), num_letters=1):
             if response == item:
                 return item
 
-            elif response == item[0]:
+            elif response == item[:num_letters]:
                 return item
 
         print(f"Please choose an option from {valid_ans_list}")
